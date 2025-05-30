@@ -3,6 +3,7 @@ converts a standard YouTube URL into an embeddable iframe src link
 
 #Add this to your helper file (e.g., app/Helpers/functions/helpers.php):
 
+```
 if (!function_exists('youtubeToIframeSrc')) {
     /**
      * Convert a YouTube URL to an iframe-compatible src link.
@@ -26,4 +27,6 @@ if (!function_exists('youtubeToIframeSrc')) {
         return null; // Invalid YouTube URL
     }
 }
+
+```
 
